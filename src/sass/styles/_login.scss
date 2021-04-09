@@ -1,0 +1,26 @@
+//Login
+.login-page {
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .brand {
+      height:48px;
+      width: auto;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+  }
+}
