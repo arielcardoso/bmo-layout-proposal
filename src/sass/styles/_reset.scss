@@ -1,4 +1,56 @@
 //Font
+.text-primary {
+  color: map-get($colors, 'primary') !important;
+}
 
 //Buttons
+.btn {
+  font-weight: bold;
+}
 
+.btn-primary {
+  background: linear-gradient(#1795E0, #047DC6);
+  border: 1px solid #047DC6;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  box-shadow: 0 !important;
+}
+.btn-primary:hover {
+  color: #fff;
+  background: linear-gradient(#1fa0eb, #047DC6);
+  box-shadow: 0 4px 10px 0 rgba($color: #047DC6, $alpha: .4) !important;
+}
+.btn-primary:active, .btn-primary:focus {
+  background: linear-gradient(#047DC6, #047DC6);
+  color: #fff;
+  box-shadow: 0 0 4px 0 rgba($color: #000000, $alpha: .1) !important;
+}
+
+.btn-secondary {
+  background: linear-gradient(#fff, #EAEAEA);
+  border: 1px solid #979797;
+  color: #444444;
+  transition: all .2s ease-in-out;
+  box-shadow: 0 !important;
+}
+.btn-secondary:hover {
+  color: #444444;
+  box-shadow: 0 4px 10px 0 rgba($color: #000000, $alpha: .1) !important;
+}
+.btn-secondary:active, .btn-secondary:focus {
+  background: linear-gradient(#EAEAEA, #EAEAEA);
+  color: #444444;
+  box-shadow: 0 0 4px 0 rgba($color: #000000, $alpha: .1) !important;
+}
+
+//Navbar
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba($color: #fff, $alpha: .8)
+  i {
+    font-size: 1.2rem;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba($color: #fff, $alpha: .99);
+}
