@@ -16,15 +16,17 @@ function App() {
       <Switch>
         <Route path="/" exact={true} component={Login} ></Route>
         <Route path="/admin/" >
-          <Header />
-          <div class='ui-content'>
+          <div className='ui'>
             <Sidebar />
-              <main>
-              <Switch>
-                <Route path="/admin/" exact={true} component={Home} />
-                <Route path="/admin/payments-and-transfers" exact={true} component={PaymentsAndTransfers} />
-              </Switch>
-            </main>
+            <div className='ui-content' >
+              <Header />
+              <div className='p-4' >
+                <Switch>
+                  <Route path="/admin/" exact={true} component={Home} />
+                  <Route path="/admin/payments-and-transfers" exact={true} component={PaymentsAndTransfers} />
+                </Switch>
+              </div>
+            </div>
           </div>
         </Route>
       </Switch>
