@@ -15,6 +15,20 @@ const Sidebar = () => {
           <li>
             <a href="#menu-account" className='active dropdown-toggle collapsed' data-bs-toggle="collapse" aria-expanded="false" >My Account</a>
             <ul id='menu-account' className="collapse list-unstyled">
+              <li>
+                <a href="#" className='account-number' >
+                  <small>Checking</small>
+                  <span>0123 4567-890</span>
+                  <i className='bi bi-chevron-right' ></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" className='account-number' >
+                  <small>Savings</small>
+                  <span>0987 6543-210</span>
+                  <i className='bi bi-chevron-right' ></i>
+                </a>
+              </li>
               <li><a href="#">Account Summary</a></li>
               <li><a href="#">Manage accounts</a></li>
             </ul>

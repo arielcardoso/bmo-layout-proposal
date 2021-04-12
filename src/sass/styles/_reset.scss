@@ -1,6 +1,16 @@
-//Font
+//Text
 .text-primary {
   color: map-get($colors, 'primary') !important;
+}
+.text-justify {
+  text-align: justify;
+}
+a {
+  color: map-get($colors, 'primary');
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 //Buttons
@@ -50,7 +60,50 @@
     font-size: 1.2rem;
   }
 }
-
 .navbar-dark .navbar-nav .nav-link:hover {
   color: rgba($color: #fff, $alpha: .99);
+}
+
+//Cards
+.card {
+  .card-header, .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 48px;
+    background-color: #fff;
+  }
+  .card-header {
+    font-weight: 700;
+  }
+}
+.card-in-tab {
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+
+//Tabs
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active {
+  color: map-get($colors, 'primary') !important;
+}
+
+//Tables
+table.table-hover {
+  tbody tr td:first-child {
+    border-left: 8px solid transparent;
+  }
+  tbody > tr:hover {
+    background-color: rgba(0, 0, 0, 0.01);
+    --bs-table-accent-bg: rgba(0, 0, 0, 0.01);
+    td:first-child {
+      border-left: 8px solid map-get($colors, 'accent') !important;
+    }
+  }
+}
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+tbody, td, tfoot, th, thead, tr {
+  //border-color: map-get($colors, 'light');
 }
