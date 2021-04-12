@@ -16,28 +16,28 @@ const Sidebar = () => {
             <a href="#menu-account" className='active dropdown-toggle collapsed' data-bs-toggle="collapse" aria-expanded="false" >My Account</a>
             <ul id='menu-account' className="collapse list-unstyled">
               <li>
-                <a href="#" className='account-number' >
+                <a href="/admin/" className='account-number' >
                   <small>Checking</small>
                   <span>0123 4567-890</span>
                   <i className='bi bi-chevron-right' ></i>
                 </a>
               </li>
               <li>
-                <a href="#" className='account-number' >
+                <a href="/admin/" className='account-number' >
                   <small>Savings</small>
                   <span>0987 6543-210</span>
                   <i className='bi bi-chevron-right' ></i>
                 </a>
               </li>
-              <li><a href="#">Account Summary</a></li>
+              <li><a href="/admin/">Account Summary</a></li>
+              <li><a href="/admin/estatements">View eStatements</a></li>
               <li><a href="#">Manage accounts</a></li>
             </ul>
           </li>
           <li>
             <a href='#menu-payments-transfers' className="dropdown-toggle collapsed" data-bs-toggle="collapse" aria-expanded="false" >Payments & Transfers</a>
             <ul id='menu-payments-transfers' className="collapse list-unstyled">
-              <li><a href="#">Make a Payment</a></li>
-              <li><a href="#">Make a Transfer</a></li>
+              <li><a href="/admin/make-payments-and-transfers">Make a Payment/Transfer</a></li>
               <li><a href="#">My Payment History</a></li>
               <li><a href="#">My Transfer History</a></li>
               <li><a href="#">Investigate a Bill Payment</a></li>

@@ -23,7 +23,7 @@ function App() {
               <div className='p-4' >
                 <Switch>
                   <Route path="/admin/" exact={true} component={Home} />
-                  <Route path="/admin/payments-and-transfers" exact={true} component={PaymentsAndTransfers} />
+                  <Route path="/admin/make-payments-and-transfers" exact={true} component={PaymentsAndTransfers} />
                 </Switch>
               </div>
             </div>

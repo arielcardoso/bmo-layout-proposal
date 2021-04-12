@@ -17,42 +17,38 @@ const Home = () => {
             <table className='table table-hover'>
               <thead>
                 <tr>
-                  <th>&nbsp;</th>
-                  <th>Type</th>
+                  <th className='ps-5' >Type</th>
                   <th>Account Name</th>
                   <th>Status</th>
                   <th>As of Date</th>
                   <th>Currency</th>
-                  <th>Balance</th>
+                  <th className='text-end' >Balance</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td></td>
-                  <td>Checking</td>
+                  <td><i className="bi bi-vector-pen me-3"></i> Checking</td>
                   <td>0123 4567-890 ARIEL</td>
                   <td>Active</td>
                   <td>Mar 31. 2021</td>
                   <td>CAD</td>
-                  <td>$6,266.33</td>
+                  <td className='text-end' >$6,266.33</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td>Savings</td>
+                  <td><i className="bi bi-wallet2 me-3"></i> Savings</td>
                   <td>0987 6543-210 ARIEL</td>
                   <td>Active</td>
                   <td>Mar 31. 2021</td>
                   <td>CAD</td>
-                  <td>$10,998.10</td>
+                  <td className='text-end'>$10,998.10</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td>Savings</td>
+                  <td><i className="bi bi-wallet2 me-3"></i> Savings</td>
                   <td>0123 4567-890 ARIEL</td>
                   <td>Deactivated</td>
                   <td>Mar 31. 2021</td>
                   <td>CAD</td>
-                  <td>$0.00</td>
+                  <td className='text-end' >$0.00</td>
                 </tr>
               </tbody>
             </table>
