@@ -7,6 +7,8 @@ import Sidebar from './pages/layout/Sidebar';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import PaymentsAndTransfers from './pages/PaymentsAndTransfers';
+import Checking from './pages/Checking';
+import Savings from './pages/Savings';
 
 import './sass/App.scss';
 
@@ -23,6 +25,8 @@ function App() {
               <div className='p-4' >
                 <Switch>
                   <Route path="/admin/" exact={true} component={Home} />
+                  <Route path="/admin/checking" exact={true} component={Checking} />
+                  <Route path="/admin/savings" exact={true} component={Savings} />
                   <Route path="/admin/make-payments-and-transfers" exact={true} component={PaymentsAndTransfers} />
                 </Switch>
               </div>

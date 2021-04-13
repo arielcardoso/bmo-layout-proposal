@@ -16,6 +16,10 @@ a {
 //Buttons
 .btn {
   font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .btn-primary {
