@@ -31,7 +31,7 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li>
-                <Link to='/admin/account-summary' >Account Summary</Link>
+                <Link to='/admin' >Account Summary</Link>
               </li>
               <li>
                 <Link to='/admin/view-statements' >View eStatements</Link>
