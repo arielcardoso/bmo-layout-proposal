@@ -6,7 +6,7 @@ const PaymentsAndTransfers = () => {
       <div className="card">
         <div className="card-header">
           My Payments & Transfers
-          <a href='javascript:;' className='btn btn-default btn-sm' >
+          <a href='{() => false}' className='btn btn-default btn-sm' >
             <i className="bi bi-printer me-1"></i> Print
           </a>
         </div>
@@ -65,12 +65,12 @@ const PaymentsAndTransfers = () => {
               </div>
             </div>
             <div className="card-footer">
-              <a href="javascript:;" className="btn btn-primary">
+              <a href="{() => false}" className="btn btn-primary">
                 Make Payment
               </a>
               <div>
-                <a href="javascript:;" className="btn btn-sm btn-default">Add a Payee</a>
-                <a href="javascript:;" className="btn btn-sm btn-default">Add another Payment Method</a>
+                <a href="{() => false}" className="btn btn-sm btn-default">Add a Payee</a>
+                <a href="{() => false}" className="btn btn-sm btn-default">Add another Payment Method</a>
               </div>
             </div>
           </div>
@@ -85,12 +85,12 @@ const PaymentsAndTransfers = () => {
           Payments Eligible for Cancellation
         </div>
         <div className="card-body">
-          <p className='text-justify' >Bill payments made today before 11p.m (ET) can be cancelled and the funds will be returned to your account inmmediately. Bill payments made after 11 p.m. (ET) can be cancelled up o 11 p.m. (ET) the following day. To cancel a bull payment not listed in your Payment History, please complete an <a href='javascript:;'>Investigate Bill Payment</a> request.</p>
+          <p className='text-justify' >Bill payments made today before 11p.m (ET) can be cancelled and the funds will be returned to your account inmmediately. Bill payments made after 11 p.m. (ET) can be cancelled up o 11 p.m. (ET) the following day. To cancel a bull payment not listed in your Payment History, please complete an <a href='{() => false}'>Investigate Bill Payment</a> request.</p>
           <div className="alert alert-secondary bg-light">
             You have no bill payments eligible to be cancelled.
           </div>
           <p className="pt-2">
-            <a href="javascript:;" className="py-5">View Payment History.</a>
+            <a href="{() => false}" className="py-5">View Payment History.</a>
           </p>
         </div>
       </div>
