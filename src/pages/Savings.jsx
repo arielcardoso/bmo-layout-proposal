@@ -6,7 +6,7 @@ const Savings = () => {
       <div className="card">
         <div className="card-header">
           Savings
-          <a href='{() => false}' className='btn btn-default btn-sm' >
+          <a href='#' className='btn btn-default btn-sm' >
             <i className="bi bi-printer me-1"></i> Print
           </a>
         </div>

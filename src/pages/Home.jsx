@@ -8,7 +8,7 @@ const Home = () => {
       <div className="card">
         <div className="card-header">
           All Accounts
-          <a href='{() => false}' className='btn btn-default btn-sm' >
+          <a href='#' className='btn btn-default btn-sm' >
             <i className="bi bi-printer me-1"></i> Print
           </a>
         </div>
@@ -54,7 +54,7 @@ const Home = () => {
             </table>
           </div>
           <p className="pt-2">
-            <a href="{() => false}" className="py-5">Add an existing account to your Account Summary.</a>
+            <a href="#" className="py-5">Add an existing account to your Account Summary.</a>
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@ const Home = () => {
           <div className="card">
             <div className="card-header">
               Recent Activity
-              <a href='{() => false}' className='btn btn-default btn-sm' >
+              <a href='#' className='btn btn-default btn-sm' >
                 <i className="bi bi-box-arrow-up-right me-1"></i> View All
               </a>
             </div>
@@ -195,9 +195,9 @@ const Home = () => {
             <div className="card-header">
               Expenses Report
               <div>
-                <a href='{() => false}' className='btn btn-default' >Day</a>
-                <a href='{() => false}' className='btn btn-default' >Month</a>
-                <a href='{() => false}' className='btn btn-default' >Year</a>
+                <a href='#' className='btn btn-default' >Day</a>
+                <a href='#' className='btn btn-default' >Month</a>
+                <a href='#' className='btn btn-default' >Year</a>
               </div>
             </div>
             <div className="card-body p-0">
